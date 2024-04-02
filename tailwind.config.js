@@ -6,13 +6,19 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
+
+    colors:{
+      'white':"#F0F0F0",
+      'dark-blue': "#213555",
+      'light-blue': "#4F709C",
+      'light-yellow': "#E5D283"
+    },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero': "url('../public/hero.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 };
