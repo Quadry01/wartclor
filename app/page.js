@@ -7,8 +7,8 @@ import Course from "./components/Courses/page";
 export default function Home() {
   return (
     <main className="  bg-light-yellow flex min-h-screen flex-col items-center justify-between ">
-     <Hero/>
-  <Course/>
+<Hero/>
+    <Course/>
      <Staff/>
       <Footer/>
     </main>

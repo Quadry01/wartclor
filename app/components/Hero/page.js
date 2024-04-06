@@ -9,7 +9,7 @@ function Hero() {
             WEST AFRICAN REGIONAL RESEARCH AND TRAINING CENTRE FOR LOW VISION
             REHABIILITATION (WARTCLOR)
           </h1>
-          <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+          <p className="mb-8 text-lg font-normal  text-white text-gray-300 lg:text-xl sm:px-16 lg:px-48">
             The West African Regional Research and Training Center on Low Vision
             and Rehabilitation (WARTCLOR) at UNILAG is established to reduce the
             burden of Low Vision at both National and Regional levels.
