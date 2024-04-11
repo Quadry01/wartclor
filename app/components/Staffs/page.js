@@ -14,11 +14,11 @@ function Staff() {
       <div className="text-center m-auto  text-4xl p-2 border-4 text-dark-blue bold  max-[600px]:text-2xl ">
         CENTRE MANAGEMENT TEAM
       </div>
-      <div className=" flex  flex-wrap justify-center animate-fade-up h-auto pt-20  pb-20 w-full via-light-yellow max-[600px]:pb-10 max-[600px]:pt-10">
+      <div className=" flex  flex-wrap justify-center animate-fade-up h-auto pt-20  pb-4 w-full via-light-yellow max-[600px]:pb-10 max-[600px]:pt-10">
         {data.staff.map((item) => (
           <div
             key={item.key}
-            className=" w-72 mx-2 my-2  max-w-sm bg-dark-blue shadow-lg shadow-blue-500/50 border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700"
+            className=" w-72 mx-2 my-2  max-w-sm bg-dark-blue shadow-lg shadow-blue-500/50 border-gray-200 rounded-lg  hover:shadow-2xl"
           >
             <div className="flex flex-col items-center px-8 py-10">
               <Image
@@ -52,14 +52,14 @@ function Staff() {
             </div>
           </div>
         ))}
-        <Link href={"/"} className="inline-flex items-center mt-10 px-3 py-2 text-sm font-medium text-center border-2 text-dark-blue bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  ">
+       
+      </div>
+       <Link href={"/"} className="inline-flex items-center mt-0 px-3 py-2 text-sm font-medium text-center border-2 text-dark-blue bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  ">
             See more
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </Link>
-      </div>
-      
     </section>
 <svg relative top-20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e9c874" fill-opacity="1" d="M0,128L34.3,144C68.6,160,137,192,206,208C274.3,224,343,224,411,192C480,160,549,96,617,101.3C685.7,107,754,181,823,192C891.4,203,960,149,1029,133.3C1097.1,117,1166,139,1234,154.7C1302.9,171,1371,181,1406,186.7L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>    </>
   );
