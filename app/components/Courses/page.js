@@ -15,11 +15,11 @@ function Course() {
    
    <div id="course" className= " animate-fade-up justify-center bg-white w-full h-auto px-4 pt-32 pb-0 flex flex-wrap overflow-hidden max-[600px]:pb-10">
     
-        <h1 className="text-center absolute top-0 bg-white p-2 text-4xl border-4 text-dark-blue bold mt-8">OUR PROGRAMS</h1>
+        <h1 className="text-center absolute top-0 bg-white p-2 text-4xl border-4 text-dark-blue bold mt-8 max-[600px]:text-2xl">OUR PROGRAMS</h1>
 
     {data.course.map((item) =>
     
-   <div key={item.key}  className="  mx-2  my-2 w-72 bg-dark-blue shadow-lg shadow-blue-500/50 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+   <div key={item.key}  className="  mx-2  my-2 w-72 bg-dark-blue rounded-lg  hover:shadow-2xl">
       <Link href={item.path}>
         <Image
           className="rounded-t-lg"

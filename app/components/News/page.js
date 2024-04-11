@@ -6,15 +6,14 @@ import data from "../Data/Data";
 
 function Newspage() {
   return (
-    <>
-      <h1 className="inline-block p-2 mb-4 ml-20 bg-white  text-4xl border-y-4 text-dark-blue bold ">
-        NEWS
-      </h1>
-      <div className=" justify-center flex flex-wrap  pb-20 hover:shadow-2xl">
+    <div className=" ">
+              <div className=" m-auto  w-36 border-4 text-center text-dark-blue bold text-4xl max-[600px]:text-2xl">NEWS</div>
+
+      <div className=" justify-center flex flex-wrap  pb-20 ">
         {data.news.map((item) => (
           <div
             key={item.key}
-            class="max-w-sm m-4 bg-dark-blue border border-gray-200 rounded-lg shadow-md "
+            class="max-w-sm m-4 bg-dark-blue border border-gray-200 rounded-lg hover:shadow-2xl "
           >
             <div className="p-4">
               <Link href="#">
@@ -61,7 +60,7 @@ function Newspage() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
