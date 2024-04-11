@@ -29,4 +29,7 @@ import Olubanke from "./olobanke.png"
   { key:4, course_name: "PGD in Vision Rehabilitation Therapy(Part Time)", description: "Department of Opthalmology", path:"/PVR" },
 ];
 
- export default {course, staff}
+const news = [
+   { key:1, title: "Dr. Elyse Connors, Fulbright Scholar from WMU visits WARTCLOR and RMO", description: "Dr. Elyse M Connors, an assistant professor at Western Michigan University in Kalamazoo Michigan, has received a Fulbright Scholar grant to visit the University of Lagos, Nigeria, between February and June 2024.", path:"/OMR"},
+];
+ export default {course, staff, news}
