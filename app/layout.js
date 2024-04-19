@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="h-full" lang="en">
       <body className={`${inter.className} bg-white`}>
-        <Navbar />
+        <Navbar className="sticky"/>
         {children}
         <Footer/>
       </body>

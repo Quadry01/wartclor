@@ -6,19 +6,19 @@ import data from "../Data/Data";
 
 function Newspage() {
   return (
-    <div className=" ">
+    <div className="text-white ">
               <div className=" m-auto  w-36 border-4 text-center text-dark-blue bold text-4xl max-[600px]:text-2xl">NEWS</div>
 
       <div className=" justify-center flex flex-wrap  pb-20 ">
         {data.news.map((item) => (
           <div
             key={item.key}
-            class="max-w-sm m-4 bg-dark-blue border border-gray-200 rounded-lg hover:shadow-2xl "
+            className="max-w-sm m-4 bg-dark-blue border border-gray-200 rounded-lg hover:shadow-2xl "
           >
             <div className="p-4">
               <Link href="#">
                 <Image
-                  class="rounded-t-lg"
+                  className="rounded-t-lg"
                   width={400}
                   height={300}
                   src={image1}
@@ -28,7 +28,7 @@ function Newspage() {
             </div>
             <div className="p-5">
               <Link href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   {item.title}
                 </h5>
               </Link>
@@ -49,9 +49,9 @@ function Newspage() {
                 >
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>

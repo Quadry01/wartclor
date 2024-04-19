@@ -2,17 +2,14 @@ import React from "react";
 
 const VRTPage = () => {
   return (
-    <div className="animate-fade-up w-full overflow-auto bg-dark-blue px-20 max-[600px]:px-4 pt-8">
+    <div id="vrt" className="animate-fade-up w-full overflow-auto text-white bg-dark-blue px-20 max-[600px]:px-4 pt-8">
       <header className="">
-        <div className=" bg-dark-blue container mx-auto py-4 px-4 md:px-0">
-          <h1 className=" bg-dark-blue border-b-4 pb-2 text-3xl font-semibold text-gray-800">
+        <div className=" container mx-auto py-4 px-4 md:px-0">
+          <h1 className=" border-b-4 pb-2 text-3xl font-semibold text-gray-800">
             M.Sc in Vision Rehabilitation Therapy (Part Time)
           </h1>
 
-          <h1 className=" bg-dark-blue text-2xl  mt-4 font-semibold text-gray-800">
-            Why M.Sc in Vision Rehabilitation Therapy
-          </h1>
-          <p className=" bg-dark-blue text-justify  mt-2">
+          <p className="  text-justify  mt-2">
             In Nigeria today, there is a marked shortage of Vision
             Rehabilitation professionals. This programme is premised on
             providing a structured avenue for addressing the shortage of
@@ -36,14 +33,55 @@ const VRTPage = () => {
           </p>
         </div>
       </header>
+
+      <div className="bg-gray-50 text-left mt-10 ">
+        <h2 className="text-gray-900 e text-3xl font-extrabold mb-2">
+          Admission Requirements{" "}
+        </h2>
+        <ul className="list-decimal text-justify">
+          <li>
+            Candidates must possess a Bachelor’s degree in Medicine,
+            Optometry, Orthoptics, or Occupational Therapy. For the classified
+            programmes, a minimum of Second Class Lower (2:2) from a recognized
+            university is required.
+          </li>
+          <li>
+            Candidates with a minimum of Second Class Lower Division (2:2)
+            in Special Education, Sociology, Psychology, Social Work, and those
+            with Third Class in the courses listed above or in Sociological
+            Sciences but with PGD in Vision Rehabilitation Therapy. Minimum
+            Grade Point (GP) required for candidates with PGD is 3.0.
+          </li>
+          <li>
+            Candidates with PGD in Vision Rehabilitation Therapy from other
+            recognized Universities can be admitted.
+          </li>
+          <li>
+          Having experience in providing support for People with vision
+            challenges is an added advantage.
+          </li>
+        </ul>
+      </div>
+
+      <div className="bg-gray-50 text-left mt-10">
+        <h2 className="text-gray-900 e text-3xl font-extrabold mb-2">
+          Graduation Requirements{" "}
+        </h2>
+        <ul className="list-disc text-justify">
+          <li> Minimum number of earned credit Unit: 34</li>
+          <li>Duration the course: 3 semesters (Maximum, 6 semesters)</li>
+          <li> Minimum CGPA:2.4</li>
+        </ul>
+      </div>
+
       <main className="container mx-auto py-8 px-4 md:px-0">
         <div className="">
           <h1 className=" bg-dark-blue text-2xl  m-2 font-semibold text-gray-800">
-            List of Courses/Semester and Number of Units by Levels 
+            List of Courses/Semester and Number of Units by Levels
           </h1>
 
           {/* TABLE ONE */}
-          <table className="  table-fixed  border whitespace-wrap">
+          <table className=" bg-dark-blue table-fixed  border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">
@@ -119,7 +157,7 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">4</td>
 
                 <td className="text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                 VRT 814
+                  VRT 814
                 </td>
                 <td className="text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   Functional Implications of Visual Impairment
@@ -199,7 +237,7 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">8</td>
 
                 <td className=" text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                VRT 819
+                  VRT 819
                 </td>
                 <td className=" text-ellipsis overflow-hidden break-words border  px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   Fitting Low Vision Aids
@@ -216,7 +254,7 @@ const VRTPage = () => {
           </table>
 
           {/* TABLE TWO */}
-          <table className=" mt-8 table-fixed border whitespace-wrap">
+          <table className=" bg-dark-blue mt-8 table-fixed border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">
@@ -249,7 +287,7 @@ const VRTPage = () => {
                   VRT 821
                 </td>
                 <td className=" text-ellipsis overflow-hidden break-words border px-6 py-4 max-[600px]:px-2">
-                 Neurological Visual Impairments in Children
+                  Neurological Visual Impairments in Children
                 </td>
                 <td className=" border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   CORE
@@ -265,7 +303,7 @@ const VRTPage = () => {
                   VRT 822
                 </td>
                 <td className=" text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-               Optical Aids Laboratory,  Magnification & Low Vision Aids
+                  Optical Aids Laboratory, Magnification & Low Vision Aids
                 </td>
                 <td className=" border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   CORE
@@ -294,10 +332,10 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">4</td>
 
                 <td className="border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                 VRT 824
+                  VRT 824
                 </td>
                 <td className=" text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                  Disability Rights 
+                  Disability Rights
                 </td>
                 <td className="border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   ELECTIVE
@@ -326,7 +364,7 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">5</td>
 
                 <td className="border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                 OMR 826
+                  OMR 826
                 </td>
                 <td className="text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   Advanced Vocational Counselling
@@ -361,7 +399,7 @@ const VRTPage = () => {
                   VRT 828
                 </td>
                 <td className="text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                 Low Vision Assessment & Intervention II
+                  Low Vision Assessment & Intervention II
                 </td>
                 <td className="text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   ELECTIVE
@@ -370,13 +408,13 @@ const VRTPage = () => {
                   2
                 </td>
               </tr>
-              
+
               {/* Add more rows for additional course items */}
             </tbody>
           </table>
 
           {/* TABLE THREE*/}
-          <table className=" mt-10 table-fixed  border whitespace-wrap">
+          <table className=" bg-dark-blue mt-10 table-fixed  border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">
@@ -466,7 +504,7 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">4</td>
 
                 <td className=" border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                VRT 836
+                  VRT 836
                 </td>
                 <td className=" border px-6 py-4 whitespace-wraptext-ellipsis overflow-hidden break-words max-[600px]:px-2">
                   Central and Peripheral field loss
@@ -482,7 +520,7 @@ const VRTPage = () => {
                 <td className="border px-6 py-4 ">5</td>
 
                 <td className="border px-6 py-4 whitespace-wrap max-[600px]:px-2">
-                 VRT 837
+                  VRT 837
                 </td>
                 <td className=" text-ellipsis overflow-hidden break-words border px-6 py-4 whitespace-wrap max-[600px]:px-2">
                   Assistive Technologies

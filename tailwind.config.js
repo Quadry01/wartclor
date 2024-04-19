@@ -15,6 +15,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('../public/hero.jpg')",
+        'kiwi': "url('../public/kiwi.svg')",
+
       },
     },
   },
