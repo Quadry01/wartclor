@@ -43,8 +43,8 @@ const [ham, setHam] = useState("");
             }}
           >
 
-            <GiHamburgerMenu className={`${ham} animate-fade text-2xl`}  />
-            <MdClose className={`${hide} animate-fade text-2xl`} />
+            <GiHamburgerMenu className={`${ham} animate-fade text-white text-2xl`}  />
+            <MdClose className={`${hide} animate-fade text-white text-2xl`} />
 
 
             <span className="sr-only">Open main menu</span>
@@ -63,23 +63,23 @@ const [ham, setHam] = useState("");
               </li>
               <li>
                 <Link
-                  href="#staff"
+                  href="/About"
                   className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#course"
+                <a
+                  href="/#course"
                   className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Courses
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
-                  href="#staff"
+                  href="/Contact"
                   className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact Us

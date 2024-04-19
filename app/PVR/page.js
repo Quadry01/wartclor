@@ -2,17 +2,15 @@ import React from "react";
 
 const PGDVRTage = () => {
   return (
-    <div className=" animate-fade-up w-full overflow-auto bg-dark-blue px-20 max-[600px]:px-4 pt-8">
+    <div id="pvr" className=" animate-fade-up w-full overflow-auto text-white bg-dark-blue px-20 max-[600px]:px-4 pt-8">
       <header className="">
-        <div className=" bg-dark-blue container mx-auto py-4 px-4 md:px-0">
-          <h1 className=" bg-dark-blue border-b-4 pb-2 text-3xl font-semibold text-gray-800">
+        <div className="  container mx-auto py-4 px-4 md:px-0">
+          <h1 className="  border-b-4 pb-2 text-3xl font-semibold text-gray-800">
             Postgraduate Diploma in Vision Rehabilitation Therapy (Part Time)
           </h1>
 
-          <h1 className=" bg-dark-blue text-2xl  mt-4 font-semibold text-gray-800">
-            Why PGD Vision Rehabilitation Therapy
-          </h1>
-          <p className=" bg-dark-blue text-justify  mt-2">
+          
+          <p className=" text-justify  mt-2">
             This programme provides a remedial path for those who may wish to
             pursue a career in Low Vision Rehabilitation (Vision Rehabilitation
             Therapy) after a successful completion of an unrelated programme but
@@ -34,14 +32,44 @@ const PGDVRTage = () => {
           </p>
         </div>
       </header>
+
+
+
+      <div className="bg-gray-50 text-left mt-10 ">
+        <h2 className="text-gray-900 e text-3xl font-extrabold mb-2">
+          Admission Requirements{" "}
+        </h2>
+        <ul className="list-decimal text-justify">
+          <li>Candidates must possess a Bachelor’s degree (with at least a Second Class Lower) in any area of Biological, Bio-medical or Health Sciences from a recognized university. 
+          </li>
+          <li>Candidates with a degree in other disciplines such as Sociology, Social work, Psychology, or Special Education, (with at least a Second Class Lower from a recognized university) are eligible. 
+          </li>
+          <li>Having experience in providing support for People with vision challenges is an added advantage.
+          </li>
+        </ul>
+      </div>
+
+      <div className="bg-gray-50 text-left mt-10">
+        <h2 className="text-gray-900 e text-3xl font-extrabold mb-2">
+          Graduation Requirements{" "}
+        </h2>
+        <ul className="list-disc text-justify">
+          <li> Minimum number of earned credit Unit: 34</li>
+          <li>Duration the course: 3 semesters (Maximum, 6 semesters)</li>
+          <li> Minimum CGPA:2.4</li>
+        </ul>
+      </div>
+
+
+
       <main className="container mx-auto py-8 px-4 md:px-0">
         <div className="">
-          <h1 className=" bg-dark-blue text-2xl  m-2 font-semibold text-gray-800">
+          <h1 className="  text-2xl  m-2 font-semibold text-gray-800">
             List of Courses/Semester and Number of Units by Levels
           </h1>
 
           {/* TABLE ONE */}
-          <table className="  table-fixed  border whitespace-wrap">
+          <table className="  bg-dark-blue  table-fixed  border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">
@@ -198,7 +226,7 @@ const PGDVRTage = () => {
           </table>
 
           {/* TABLE TWO */}
-          <table className=" mt-8 table-fixed border whitespace-wrap">
+          <table className="  bg-dark-blue mt-8 table-fixed border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">
@@ -326,7 +354,7 @@ const PGDVRTage = () => {
           </table>
 
           {/* TABLE THREE*/}
-          <table className=" mt-10 table-fixed  border whitespace-wrap">
+          <table className="  bg-dark-blue mt-10 table-fixed  border whitespace-wrap">
             <thead className="border">
               <tr>
                 <th colSpan="5" className="text-2xl">

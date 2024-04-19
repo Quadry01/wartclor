@@ -1,7 +1,6 @@
 
 import React from "react";
 import Image from "next/image";
-import ij from "./course1.jpg";
 import data from "../Data/Data"
 import Link from 'next/link'
 
@@ -25,7 +24,7 @@ function Course() {
           className="rounded-t-lg"
           width={300}
           height={300}
-          src={ij}
+          src={item.image}
           alt="course"
         ></Image>
       </Link>
