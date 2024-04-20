@@ -76,7 +76,7 @@ const VRTPage = () => {
 
       <main className="container mx-auto py-8 px-4 md:px-0">
         <div className="">
-          <h1 className=" bg-dark-blue text-2xl  m-2 font-semibold text-gray-800">
+          <h1 className="  text-2xl  m-2 font-semibold text-gray-800">
             List of Courses/Semester and Number of Units by Levels
           </h1>
 

@@ -12,22 +12,36 @@
     background-image: url("../public/topography\ 2.svg") ;
     
     background-repeat: repeat;
-    background-size: 10%;
+    background-size: 20%;
 }
 
 #vrt{
     background-image: url("../public/topography\ 2.svg") ;
     
     background-repeat: repeat;
-    background-size: 10%;
+    background-size: 20%;
 }
 
 #pvr{
     background-image: url("../public/topography\ 2.svg") ;
     
     background-repeat: repeat;
-    background-size: 10%;
+    background-size: 20%;
 }
+#news{
+    background-image: url("../public/topography\ 2.svg") ;
+    
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+#about{
+    background-image: url("../public/topography\ 2.svg") ;
+    
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
 
 
 #contact{
