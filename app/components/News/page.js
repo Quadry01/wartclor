@@ -16,7 +16,7 @@ function Newspage() {
             className="max-w-sm m-4 bg-dark-blue border border-gray-200 rounded-lg hover:shadow-2xl "
           >
             <div className="p-4">
-              <Link href="#">
+              <Link href="/News1">
                 <Image
                   className="rounded-t-lg"
                   width={400}
@@ -27,7 +27,7 @@ function Newspage() {
               </Link>
             </div>
             <div className="p-5">
-              <Link href="#">
+              <Link href="/News1">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   {item.title}
                 </h5>
@@ -36,7 +36,7 @@ function Newspage() {
                 {item.description}
               </p>
               <Link
-                href="#"
+                href="/News1"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium border text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 "
               >
                 Read more

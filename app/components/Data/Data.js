@@ -42,7 +42,7 @@ const mainStaff = [
     name: "Professor Folashade Akinsola",
     Department: "Department of Opthalmology",
     biography:
-      "hold a Bachelor of Medicine, Bachelor of Surgery (MBBS) and have several years of experience working as a Professor of Ophthalmic surgery and Public Health at the College of Medicine, University of Lagos. I am the current Dean of Clinical Sciences, University of Lagos, Nigeria, and have served as the Chief Consultant Ophthalmologist at the Lagos University Teaching Hospital for over thirty years. I’m also the current Director of the West African Regional and Training Centre for Low Vision Rehabilitation (WARTCLOR). I have led several funded national and international projects on ophthalmic eye care service delivery, and conducted several research studies on retinal image processing systems in modern ophthalmology. My research interests focus mainly on how retinal images provide useful information about the health of the visual system, and I am routinely involved in clinical diagnosis and treatment of retinal diseases, such as glaucoma, age-related macular degeneration, diabetic retinopathy, as well as making significant contributions to novel and innovative approaches to understanding retinal-pathophysiology of many other diseases that can lead to blindness.",
+      "I hold a Bachelor of Medicine, Bachelor of Surgery (MBBS) and have several years of experience working as a Professor of Ophthalmic surgery and Public Health at the College of Medicine, University of Lagos. I am the current Dean of Clinical Sciences, University of Lagos, Nigeria, and have served as the Chief Consultant Ophthalmologist at the Lagos University Teaching Hospital for over thirty years. I’m also the current Director of the West African Regional and Training Centre for Low Vision Rehabilitation (WARTCLOR). I have led several funded national and international projects on ophthalmic eye care service delivery, and conducted several research studies on retinal image processing systems in modern ophthalmology. My research interests focus mainly on how retinal images provide useful information about the health of the visual system, and I am routinely involved in clinical diagnosis and treatment of retinal diseases, such as glaucoma, age-related macular degeneration, diabetic retinopathy, as well as making significant contributions to novel and innovative approaches to understanding retinal-pathophysiology of many other diseases that can lead to blindness.",
   },
   {
     key: 2,
@@ -79,7 +79,7 @@ const course = [
     key: 1,
     course_name: "PGD Orientation & Mobility (Part- Time)",
     description:
-      "West African Regional Research and Training Center on Low Visionand Rehabilitation (WARTCLOR)",
+      "West African Regional Research and Training Center on Low Vision and Rehabilitation (WARTCLOR)",
     path: "/OMR",
     image: omr,
   },
@@ -87,7 +87,7 @@ const course = [
     key: 2,
     course_name: "M.Sc in Vision Rehabilitation Therapy (Part Time)",
     description:
-      "West African Regional Research and Training Center on Low Visionand Rehabilitation (WARTCLOR)",
+      "West African Regional Research and Training Center on Low Vision and Rehabilitation (WARTCLOR)",
     path: "/VRT",
     image: vrt,
   },
@@ -95,7 +95,7 @@ const course = [
     key: 3,
     course_name: "M.Sc Orientation & Mobility Rehabilitation (Part-Time)",
     description:
-      "West African Regional Research and Training Center on Low Visionand Rehabilitation (WARTCLOR)",
+      "West African Regional Research and Training Center on Low Vision and Rehabilitation (WARTCLOR)",
     path: "/OM",
     image: om,
   },
@@ -103,7 +103,7 @@ const course = [
     key: 4,
     course_name: "PGD in Vision Rehabilitation Therapy(Part Time)",
     description:
-      "West African Regional Research and Training Center on Low Visionand Rehabilitation (WARTCLOR)",
+      "West African Regional Research and Training Center on Low Vision and Rehabilitation (WARTCLOR)",
     path: "/PVR",
     image: vr,
   },

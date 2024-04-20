@@ -7,7 +7,7 @@ import Link from 'next/link'
 function About() {
   return (
     <>
-      <section className="animate-fade-up bg-dark-blue  text-white bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] ">
+      <section id="about" className="animate-fade-up bg-dark-blue  text-white  ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
           <Image
             className="m-auto"
@@ -92,7 +92,7 @@ function About() {
 
 <Link
               href="/"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium border-white-4 text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+              className="inline-flex bg-dark-blue justify-center items-center py-3 px-5 text-base font-medium border-white-4 text-center text-white rounded-lg bg-blue-700 hover:underline focus:ring-4 focus:ring-blue-300 "
             >
               Back to Home
               <svg
