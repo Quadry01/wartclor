@@ -5,7 +5,7 @@ import data from  "../components/Data/Data"
 
 function MainStaff() {
   return (
-  <> <div className="text-center m-auto  bg-dark-blue  text-4xl pt-10  text-white bold  max-[600px]:text-2xl ">
+  <> <div className="text-center m-auto  bg-dark-blue  text-4xl pt-10  text-white bold  max-[600px]:text-2xl  ">
           MEET THE TEAM
         </div> <div className="flex flex-wrap bg-dark-blue pt-1">
             {data.mainStaff.map((item) => (
@@ -16,11 +16,11 @@ function MainStaff() {
         className=" items-center bg-dark-blue rounded-lg m-4 p-4  md:flex-row md:max-w-xl hover:bg-gray-100 "
       >
         <Image
-          className="object-cover w-full rounded-lg md:h-auto md:w-auto md:rounded-none md:rounded-s-lg"
+          className="object-cover  rounded-lg  md:rounded-none md:rounded-s-lg max-[600px]:ml-4"
           src={item.img}
           width={200}
           height={200}
-          alt=""
+          alt="team image"
         ></Image>{" "}
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">

@@ -1,12 +1,23 @@
 import React from "react";
 import Link from 'next/link'
+import logo from "../Navbar/unilag_logo.png";
+import Image from "next/image";
+
+
 
 
 function Hero() {
   return (
     <div className="">
       <section className=" animate-fade-up w-full     bg-cover bg-no-repeat bg-hero   bg-blend-multiply">
-        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 backdrop-brightness-50">
+        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-30 backdrop-brightness-50">
+          <Image
+            className="m-auto"
+            src={logo}
+            width={200}
+            height={200}
+            alt="unilag logo"
+          ></Image>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
             WEST AFRICAN REGIONAL RESEARCH AND TRAINING CENTRE FOR LOW VISION
             REHABIILITATION (WARTCLOR)

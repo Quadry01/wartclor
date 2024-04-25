@@ -25,7 +25,7 @@ function Course() {
           width={300}
           height={300}
           src={item.image}
-          alt="course"
+          alt="course image"
         ></Image>
       </Link>
       <div className="p-5">

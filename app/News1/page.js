@@ -6,9 +6,11 @@ import news2 from "../components/News/nw1.jpeg";
 function News1() {
   return (
     <div id="news" className="text-white bg-dark-blue lg:px-20 max-[600px]:px-4">
-      <h1 className="mb-4 px-4 py-8 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
+      <h1 className="mb-4 px-4 pt-8 pb-2 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-2 lg:text-4xl">
         Dr. Elyse Connors, Fulbright Scholar from WMU visits WARTCLOR and RMO{" "}
       </h1>
+            <p className="px-4">April 13, 2024</p>
+
 <div>
       <Image className="float-left m-4 max-[600px]:float-none" src={news2} height={200} width={350} alt="image"></Image>
 

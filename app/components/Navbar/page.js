@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import logo from "./unilag_logo.png";
+import wartclor from "./wartclor-logo.png";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import Link from 'next/link'
@@ -22,10 +24,10 @@ const [ham, setHam] = useState("");
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src={logo}
+              src={wartclor}
               width={50}
               height={50}
-              alt="Picture of the author"
+              alt="wartclor logo"
             />
             <span className="self-center text-2xl text-white font-semibold whitespace-nowrap ">
               WARTCLOR
