@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link'
-import logo from "../Navbar/unilag_logo.png";
+import unilag_logo from "../Navbar/unilag_logo.png";
+import wratclor_logo from "../Navbar/wartclor-logo.png";
 import Image from "next/image";
 
 
@@ -11,21 +12,31 @@ function Hero() {
     <div className="">
       <section className=" animate-fade-up w-full     bg-cover bg-no-repeat bg-hero   bg-blend-multiply">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-30 backdrop-brightness-50">
-          <Image
-            className="m-auto"
-            src={logo}
-            width={200}
-            height={200}
-            alt="unilag logo"
-          ></Image>
+          <div className="flex flex-row justify-center mb-4">
+            <Image
+              className=" max-[600px]:h-40 max-[600px]:w-40"
+              src={unilag_logo}
+              width={200}
+              height={200}
+              alt="unilag logo"
+            ></Image>
+            <Image
+              className=" max-[600px]:h-40 max-[600px]:w-40"
+              src={wratclor_logo}
+              width={200}
+              height={200}
+              alt="unilag logo"
+            ></Image>
+          </div>
+          
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
             WEST AFRICAN REGIONAL RESEARCH AND TRAINING CENTRE FOR LOW VISION
             REHABIILITATION (WARTCLOR)
           </h1>
           <p className="mb-8 text-lg font-normal  text-white text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            The West African Regional Research and Training Center on Low Vision
+            The West African Regional Research and Training Center on low vision
             and Rehabilitation (WARTCLOR) at UNILAG was established to reduce the
-            burden of Low Vision at both National and Regional levels.
+            burden of low vision at both national and regional levels.
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <Link

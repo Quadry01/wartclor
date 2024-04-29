@@ -17,7 +17,7 @@ const [ham, setHam] = useState("");
 
   return (
     <div>
-      <nav className="  bg-light-yellow  dark:bg-gray-900 px-20 sm:px-4 ">
+      <nav className="  bg-light-yellow  dark:bg-gray-900 px-20 sm:px-4 max-[600px]:px-4 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             href="/"
