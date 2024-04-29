@@ -11,7 +11,7 @@ function Hero() {
   return (
     <div className="">
       <section className=" animate-fade-up w-full     bg-cover bg-no-repeat bg-hero   bg-blend-multiply">
-        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-30 backdrop-brightness-50">
+        <div className="px-4 mx-auto max-w-screen-xl text-center pb-24 pt-16 lg:py-30 backdrop-brightness-50">
           <div className="flex flex-row justify-center mb-4">
             <Image
               className=" max-[600px]:h-40 max-[600px]:w-40"
